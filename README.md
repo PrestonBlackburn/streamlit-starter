@@ -36,7 +36,7 @@ mkdocs serve
 ```
 
 ### Other
-
+I prefer not to use a `.streamlit` and streamlit `config.toml` file in favor of env variables. Env variables can be provided at runtime, so they are not baked in as part of the docker image.
 
 
 
