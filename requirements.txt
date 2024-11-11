@@ -1,0 +1,4 @@
+app/.
+mkdocs
+streamlit
+mkdocs-techdocs-core

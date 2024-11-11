@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=65.5.1", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "streamlit_lib"
+version = "0.0.1"
+description = "Python lib for supporting streamlit app"
+readme = "README.md"
+requires-python=">3.7"
+
+dependencies = [
+    "pandas",
+    "snowflake-connector-python",
+    "streamlit",
+    "langchain",
+    "llama-index"
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "pytest"
+]
